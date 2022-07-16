@@ -5,6 +5,8 @@ set :application, "cdp_web_web_aws_deploy_task"
 set :repo_url, "https://github.com/Rattuti/AWS_test.git"
 set :bundle_without, %w{test}.join(':')
 
+set :rbenv_version, '3.0.3'
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
